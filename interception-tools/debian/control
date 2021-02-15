@@ -1,0 +1,28 @@
+Source: interception-tools
+Section: admin
+Priority: optional
+Maintainer: Ethan Djeric <me@ethandjeric.com>
+Build-Depends: debhelper-compat (= 13),
+ cmake,
+ libboost-dev,
+ libevdev-dev,
+ libyaml-cpp-dev,
+ libudev-dev
+Standards-Version: 4.5.0
+Homepage: https://gitlab.com/interception/linux/tools
+#Vcs-Browser: https://salsa.debian.org/debian/interception-tools
+Vcs-Git: https://gitlab.com/interception/linux/tools.git
+Rules-Requires-Root: no
+
+Package: interception-tools
+Architecture: amd64
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ libevdev-dev,
+ libyaml-cpp-dev,
+ libudev-dev,
+ libsystemd-dev
+Suggests: interception-caps2esc
+Description: A minimal composable infrastructure on top of libudev and libevdev.
+ The Interception Tools is a small set of utilities for operating on input
+ events of evdev devices, including udevmon, intercept, uninput and mux.

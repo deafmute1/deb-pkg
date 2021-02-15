@@ -1,0 +1,8 @@
+#!/bin/sh
+set -e
+
+mkdir /etc/interception/udevmon.d
+
+#DEBHELPER#
+
+
