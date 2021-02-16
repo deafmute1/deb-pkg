@@ -1,10 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: interception-caps2esc 
+Upstream-Name: interception-space2meta
 Upstream-Contact: Francisco Lopes <francisco+interception@nosubstance.me>
-Source: https://gitlab.com/interception/linux/caps2esc.git
+Source: https://gitlab.com/interception/linux/space2meta.git
 
 Files: *
-Copyright: Copyright 2017 Francisco Lopes da Silva <francisco+interception@nosubstance.me>
+Copyright: Copyright 2019 Francisco Lopes da Silva <francisco+interception@nosubstance.me>
 License: MIT-Expat
  Permission is hereby granted, free of charge, to any person
  obtaining a copy of this software and associated documentation

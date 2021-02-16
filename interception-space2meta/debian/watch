@@ -1,0 +1,3 @@
+version=4
+
+https://gitlab.com/interception/linux/plugins/space2meta/tags?sort=updated_desc archive/@ANY_VERSION@/space2meta-\d\S*@ARCHIVE_EXT@

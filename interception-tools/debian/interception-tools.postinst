@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
-mkdir /etc/interception/udevmon.d
-
 #DEBHELPER#
+
+if [ ! -f "/etc/interception/udevmon.d" ]; then 
+  mkdir -p "/etc/interception/udevmon.d"
+fi
 
 

@@ -1,0 +1,20 @@
+Source: interception-space2meta
+Section: utils
+Priority: optional
+Maintainer: Ethan Djeric <me@ethandjeric.com>
+Build-Depends: debhelper-compat (= 13),
+ cmake
+Standards-Version: 4.5.0
+Homepage: https://gitlab.com/interception/linux/plugins/space2meta
+#Vcs-Browser: https://salsa.debian.org/debian/interception-tools
+Vcs-Git: https://gitlab.com/interception/linux/plugins/space2meta.git
+Rules-Requires-Root: no
+
+Package: interception-space2meta
+Architecture: amd64
+Depends: ${shlibs:Depends},
+ ${misc:Depends},
+ interception-tools 
+Description: Rebind Space to Meta at evdev level using interception-tools. 
+
+
