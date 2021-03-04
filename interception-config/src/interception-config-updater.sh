@@ -7,7 +7,7 @@
 
 #set -euxo pipefail
 CONF_PREFIX="deafmute-ppa-"
-CONF_STORE_DIR="/usr/share/interception-config/conf"
+CONF_SRC_DIR="/usr/share/interception-config/conf"
 CONF_DEST_DIR="/etc/interception/udevmon.d" 
 
 function deploy_config {
