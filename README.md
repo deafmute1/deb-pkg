@@ -15,4 +15,4 @@ Debian packaging files for packages maintained by me. Find PPAs (and direct .deb
 
 6. Build: `cd deb-pkg/<PACKAGE>/debuild/<VERSION>~<SERIES>/pkg && debuild -S`
 
-7: Upload to launchpad: `dput ppa:deafmute/interception deb-pkg/<PACKAGE>/debuild/<VERSION>~<SERIES>/<PACKAGE>_<VERSION>~<SERIES>~ppa<COUNT>_source.changes`
+7. Upload to launchpad: `dput ppa:deafmute/interception deb-pkg/<PACKAGE>/debuild/<VERSION>~<SERIES>/<PACKAGE>_<VERSION>~<SERIES>~ppa<COUNT>_source.changes`
