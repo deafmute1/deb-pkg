@@ -1,3 +1,11 @@
+interception-caps2esc (0.3.2~groovy~ppa3) groovy; urgency=low
+
+  * Add dependancy on interception-config, which programatically deploys
+  config files for interception plugins
+
+ -- Ethan Djeric <me@ethandjeric.com>  Mon, 15 Feb 2021 21:00:21 +1100
+
+
 interception-space2meta (0.1.1~groovy~ppa2) groovy; urgency=low
 
   * Initial packaged release - fix package build error due to typo

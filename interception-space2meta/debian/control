@@ -14,7 +14,8 @@ Package: interception-space2meta
 Architecture: amd64
 Depends: ${shlibs:Depends},
  ${misc:Depends},
- interception-tools 
+ interception-tools,
+ interception-config
 Description: Rebind Space to Meta at evdev level using interception-tools. 
 
 
