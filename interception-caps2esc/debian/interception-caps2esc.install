@@ -1,2 +1,2 @@
-debian/interception-caps2esc.yaml /etc/interception/udevmon.d
+debian/interception-caps2esc.yaml etc/interception/udevmon.d
 
