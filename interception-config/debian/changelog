@@ -1,3 +1,15 @@
+interception-config (0.0.3~groovy~ppa1) groovy; urgency=low
+
+  * Remove interception-config from generated list of plugins
+
+ -- Ethan Djeric <me@ethandjeric.com>  Mon, 04 Mar 2021 15:27:22 +1100
+
+interception-config (0.0.2~groovy~ppa1) groovy; urgency=low
+
+  * Typo fix to var name
+
+ -- Ethan Djeric <me@ethandjeric.com>  Mon, 04 Mar 2021 15:27:22 +1100
+
 interception-config (0.0.1~groovy~ppa2) groovy; urgency=low
 
   * Initial package 

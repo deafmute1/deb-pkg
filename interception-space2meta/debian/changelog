@@ -1,4 +1,4 @@
-interception-caps2esc (0.3.2~groovy~ppa3) groovy; urgency=low
+interception-space2meta (0.1.1~groovy~ppa3) groovy; urgency=low
 
   * Add dependancy on interception-config, which programatically deploys
   config files for interception plugins

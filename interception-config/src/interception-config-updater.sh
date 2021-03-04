@@ -20,7 +20,7 @@ function deploy_config {
   fi 
 
   success=0
-  plugins=$(dpkg-query --show 'interception*' | grep -v 'interception-tools' | cut -f1 | cut -f2 -d'-')
+  plugins=$(dpkg-query --show 'interception*' | grep -v 'interception-tools'| grep -v 'interception-config' | cut -f1 | cut -f2 -d'-')
   plugins_c=$(wc -l <<< "$plugins")
   while read -r file; do
     file=$(basename "$file" .yaml)
@@ -45,8 +45,9 @@ function deploy_config {
   fi
 }
 
-while true; do 
-  read -p "Would you like to install the recommended configurations for your specific installed interception plugins? [y/n]: " response 
+while true; do
+  echo "" 
+  read -p "Would you like to update the recomended config for your interception plugins (at /etc/interception/udevmon.d/deafmute-ppa-*.yaml)? [y/n]: " response 
   case $response in 
     "Y"|"y" ) 
       deploy_config
