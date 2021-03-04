@@ -14,7 +14,8 @@ Package: interception-caps2esc
 Architecture: amd64
 Depends: ${shlibs:Depends},
  ${misc:Depends},
- interception-tools 
+ interception-tools,
+ interception-config
 Description: Rebind Caps Lock to Esc at evdev level using interception-tools.
   Also allows Caps Lock to be used as Ctrl when keychording. 
 

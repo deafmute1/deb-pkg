@@ -1,0 +1,19 @@
+Source: interception-config
+Section: utils
+Priority: optional
+Maintainer: Ethan Djeric <me@ethandjeric.com>
+Build-Depends: debhelper-compat (= 13) 
+Standards-Version: 4.5.0
+Homepage: https://github.com/deafmute1/deb-pkg
+#Vcs-Browser: https://salsa.debian.org/debian/interception-tools
+Vcs-Git: https://github.com/deafmute1/deb-pkg.git
+Rules-Requires-Root: no
+
+Package: interception-config
+Architecture: amd64
+Depends: ${shlibs:Depends},
+ ${misc:Depends} 
+Description: Shared config files for interception plugins in ppa:deafmute/interception. 
+ Should only be installed as a dependancy.
+
+
