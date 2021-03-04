@@ -1,3 +1,9 @@
+interception-space2meta (0.1.1~groovy~ppa2) groovy; urgency=low
+
+  * Initial packaged release - fix package build error due to typo
+
+ -- Ethan Djeric <me@ethandjeric.com>  Tue, 16 Feb 2021 18:39:26 +1100
+
 interception-space2meta (0.1.1~groovy~ppa1) groovy; urgency=low
 
   * Initial packaged release

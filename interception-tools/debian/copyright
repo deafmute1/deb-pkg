@@ -6,6 +6,12 @@ Source: https://gitlab.com/interception/linux/tools.git
 Files: *
 Copyright: Copyright 2017 Francisco Lopes da Silva <francisco+interception@nosubstance.me>
 License: GPL-3+
+
+Files: debian/*
+Copyright: Copyright 2021 Ethan Djeric <me@ethandjeric.com> 
+License: GPL-3+
+
+License: GPL-3+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
  License as published by the Free Software Foundation; either
@@ -25,6 +31,5 @@ License: GPL-3+
  On Debian (and derivative, including Ubuntu) systems, the full
  text of the GNU General Public License version 3 can be found
  in the file `/usr/share/common-licenses/GPL-3'.
-
 
 
